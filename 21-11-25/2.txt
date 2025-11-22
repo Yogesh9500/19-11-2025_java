@@ -1,0 +1,25 @@
+package aiml;
+
+public class OMRKing {
+
+	    public static void main(String[] args) {
+	        Student s1 = new Student();
+	        Student s2 = new Student("YOGI");
+	        Student s3 = new Student(500, "B");
+	    }
+	}
+	//CONSTRUCTOR
+	class Student {
+
+	    Student() {
+	        System.out.println("Default Constructor Called");
+	    }
+
+	    Student(String name) {
+	        System.out.println("Student Name: " + name);
+	    }
+
+	    Student(int id, String name) {
+	        System.out.println("Student ID: " + id + ", Name: " + name);
+	    }
+	}
